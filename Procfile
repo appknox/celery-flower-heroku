@@ -1,1 +1,1 @@
-web: flower --port=$PORT --broker=$BROKER_URL --basic_auth=$FLOWER_AUTH --auth=.*@appknox\.com
+web: flower --port=$PORT --broker="$BROKER_URL" --basic_auth=$FLOWER_AUTH --auth=.*@appknox\.com
